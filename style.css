@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("images/netflix.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+header{
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+.container{
+    margin: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border:1px solid rgba(0, 0, 0, 0.3);
+}
+.form-body{
+    background-color: black;
+    width: 400px;
+    margin: 20px auto;
+    padding: 30px 20px;
+    opacity: 0.9;
+    z-index: 99;
+}
+label{
+display: block;
+margin: 10px 0 3px 0;
+color: white;
+}
+input, select, textarea{
+width: 350px;
+height: 30px;
+}
+textarea{
+height: 110px;
+color: black;
+padding: 5px;
+resize: none;
+maxlength: 150;
+}
+
+input[type="radio"],input[type="checkbox"] {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin-top: 1.5px;
+    margin-left: -19px;
+}
+.radio-group{
+    margin-left: 25px;
+}
+.button {
+    background-color: red;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+.form-footer{
+   margin: auto;
+   text-align: center;
+   margin-top: 5px;
+}

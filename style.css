@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: ;
 }
 body{
     background-image: url("images/netflix.jpg");
@@ -44,7 +44,6 @@ height: 110px;
 color: black;
 padding: 5px;
 resize: none;
-maxlength: 150;
 }
 
 input[type="radio"],input[type="checkbox"] {
@@ -68,4 +67,5 @@ input[type="radio"],input[type="checkbox"] {
    margin: auto;
    text-align: center;
    margin-top: 5px;
+   float: right;
 }
